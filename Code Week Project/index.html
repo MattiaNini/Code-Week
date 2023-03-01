@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Address Book</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="first__section" id="sezione1">
+      <h1 class="title__section">MY ADDRESS BOOK</h1>
+      <img src="pennaicon.jpg" class="title__bg" alt="titlebg">
+    </section>
+    <section id="sezione2">
+      <form action="ricerca.php" method="get" class="form__input">
+        <input type="text" id="search__input" class="search__input" placeholder="Inserisci nome">
+        <button id="btn__input" class="btn__input" type="submit">Cerca</button>
+        <div id="resultDiv" class="resultDiv">
+        </div>
+      </form>
+    </section>
+    <section id="sezione3" class="sezione3">
+      <div class="contatti">
+        <h1>TUTTI I CONTATTI👥</h1>
+      </div>
+      <div id="myList" class="myList">
+      </div>
+      </div>
+    </section>
+    <section id="sezione4">
+      <div class="favourite__contact">
+      <h1>CONTATTI PREFERITI⭐</h1>
+    </div>
+      <div class="myList2"></div>
+    </section>
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
